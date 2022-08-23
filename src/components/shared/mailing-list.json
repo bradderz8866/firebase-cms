@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_shared_mailing_lists",
+  "info": {
+    "displayName": "mailing-list",
+    "icon": "mail-bulk",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "join our mailing list"
+    },
+    "input_placeholder": {
+      "type": "string",
+      "default": "ENTER EMAIL ADDRESS"
+    },
+    "button_text": {
+      "type": "string",
+      "default": "submit"
+    },
+    "background_image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

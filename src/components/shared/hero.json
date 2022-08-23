@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_shared_heroes",
+  "info": {
+    "displayName": "hero",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "cta_h1": {
+      "type": "string",
+      "required": true
+    },
+    "cta_text": {
+      "type": "string",
+      "required": true
+    },
+    "cta_btn_text": {
+      "type": "string",
+      "required": true
+    },
+    "cta_btn_href": {
+      "type": "string",
+      "required": true,
+      "default": "#"
+    },
+    "sliders": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.carousel-item",
+      "required": true
+    }
+  }
+}

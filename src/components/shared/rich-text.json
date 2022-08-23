@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_rich_texts",
+  "info": {
+    "displayName": "rich-text",
+    "icon": "indent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "rich_text": {
+      "type": "richtext"
+    },
+    "font_color": {
+      "type": "string"
+    }
+  }
+}

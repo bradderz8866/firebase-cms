@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_carousels",
+  "info": {
+    "displayName": "carousel",
+    "icon": "expand-arrows-alt"
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "displayName": "carousel-item",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.carousel-item"
+    }
+  }
+}

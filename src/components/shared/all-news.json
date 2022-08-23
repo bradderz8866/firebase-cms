@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_all_news",
+  "info": {
+    "displayName": "all-news",
+    "icon": "bezier-curve"
+  },
+  "options": {},
+  "attributes": {
+    "get_all_news": {
+      "type": "boolean",
+      "default": true,
+      "required": false
+    }
+  }
+}

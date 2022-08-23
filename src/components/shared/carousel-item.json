@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_shared_carousel_items",
+  "info": {
+    "displayName": "carousel-item",
+    "icon": "arrow-circle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "overlay_sm_title": {
+      "type": "string"
+    },
+    "overlay_title": {
+      "type": "string"
+    },
+    "overlay_background_color": {
+      "type": "string"
+    },
+    "overlay_text": {
+      "type": "text"
+    },
+    "overlay_background_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

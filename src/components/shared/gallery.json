@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_gallery_s",
+  "info": {
+    "displayName": "gallery ",
+    "icon": "photo-video",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

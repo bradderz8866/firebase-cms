@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_shared_community_sections",
+  "info": {
+    "displayName": "community-section",
+    "icon": "atlas",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "button_text": {
+      "type": "string",
+      "required": true
+    },
+    "button_href": {
+      "type": "string",
+      "required": true
+    },
+    "figures_1": {
+      "type": "biginteger"
+    },
+    "figures_1_text": {
+      "type": "string"
+    },
+    "figures_2": {
+      "type": "biginteger"
+    },
+    "figures_2_text": {
+      "type": "string"
+    },
+    "background_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    }
+  }
+}

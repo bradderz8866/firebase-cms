@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_shared_latest_news",
+  "info": {
+    "displayName": "latest-news",
+    "icon": "basketball-ball",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "show_latest_news": {
+      "type": "boolean"
+    }
+  }
+}

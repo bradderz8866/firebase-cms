@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_page_headers",
+  "info": {
+    "displayName": "page-header",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "background_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

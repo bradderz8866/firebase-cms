@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_shared_text_image_sections",
+  "info": {
+    "displayName": "text-image-section",
+    "icon": "border-all",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "image_side": {
+      "type": "enumeration",
+      "enum": [
+        "right",
+        "left"
+      ],
+      "required": true,
+      "default": "left"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "richtext",
+      "required": true
+    },
+    "shape": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
