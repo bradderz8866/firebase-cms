@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_video_banners",
+  "info": {
+    "displayName": "video-banner",
+    "icon": "video",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "src": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "desc": {
+      "type": "string"
+    }
+  }
+}
